@@ -1,4 +1,4 @@
 [submodule "qpid-proton"]
 	path = qpid-proton
 	url = http://git.apache.org/qpid-proton.git
-	branch = master
+	branch = 0.10.x
