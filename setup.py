@@ -159,7 +159,7 @@ class Configure(build_ext):
                 # be triggered when calling `setup.py`. This can happen either
                 # manually or when calling `tox` in the **sdist** step. Tox will
                 # defined the `QPID_PROTON_SRC` itself.
-                proton_c = os.path.join(setup_path, '..', '..', '..')
+                proton_c = os.path.join(setup_path, 'qpid-proton')
                 libqpid_proton_dir = os.path.abspath(proton_c)
         else:
             libqpid_proton_dir = os.path.abspath(os.environ['QPID_PROTON_SRC'])
